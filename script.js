@@ -6,6 +6,8 @@ $(document).ready(function() {
         currentInput += $(this).text();
         resultField.val(currentInput);
     });
+
+    
  
     $('.operator').on('click', function() {
         const operator = $(this).text();
